@@ -19,7 +19,7 @@ export const home = (hash = '') => `${BASE}${hash}`;
 // Paste the Kit newsletter signup page between the quotes in newsletterUrl.
 // While newsletterUrl is empty, the Newsletter link stays hidden.
 export const courseUrl = 'https://learn.practicalpeopleanalytics.com/';
-export const newsletterUrl = ''; https://peopleanalytics.substack.com/
+export const newsletterUrl = 'https://peopleanalytics.substack.com/';
 
 export const nav = [
   { label: 'Services', href: home('#services') },
