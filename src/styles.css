@@ -1160,13 +1160,13 @@ ol {
 
 @media (min-width: 960px) {
   .footer-inner {
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr;
     align-items: center;
     column-gap: 3rem;
   }
 
   .site-footer nav ul {
-    justify-content: center;
+    justify-content: flex-end;
   }
 
   .copyright {
