@@ -296,7 +296,55 @@ ol {
   text-underline-offset: 6px;
 }
 
+/* Smaller laptop screens: the menu shrinks a little so it stays on the same line as the logo. */
 @media (max-width: 1279px) {
+  .brand img {
+    width: 165px;
+  }
+
+  .site-nav ul {
+    gap: 1.1rem;
+  }
+
+  .site-nav a:not(.button) {
+    font-size: 0.9rem;
+  }
+
+  .site-nav .button {
+    padding: 0.55rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 1099px) {
+  .header-inner {
+    column-gap: 1.25rem;
+  }
+
+  .brand img {
+    width: 150px;
+  }
+
+  .site-nav ul {
+    gap: 0.8rem;
+  }
+
+  .site-nav a:not(.button) {
+    font-size: 0.82rem;
+  }
+
+  .site-nav .button {
+    padding: 0.5rem 0.85rem;
+    font-size: 0.82rem;
+  }
+}
+
+/* Tablets and phones: the menu sits on its own row under the logo and wraps if needed. */
+@media (max-width: 959px) {
+  .brand img {
+    width: 165px;
+  }
+
   .site-nav {
     flex-basis: 100%;
     padding-bottom: 0.75rem;
@@ -304,7 +352,12 @@ ol {
 
   .site-nav ul {
     flex-wrap: wrap;
+    column-gap: 1.25rem;
     row-gap: 0.25rem;
+  }
+
+  .site-nav a:not(.button) {
+    font-size: 0.95rem;
   }
 }
 
