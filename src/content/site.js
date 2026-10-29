@@ -222,7 +222,7 @@ export const contact = {
 // a free form service such as Formspree (formspree.io). Paste the form's address
 // between the quotes, for example: 'https://formspree.io/f/abcdwxyz'
 // While this is empty, sending the form opens the visitor's email app with the message filled in.
-export const formEndpoint = '';
+export const formEndpoint = 'https://formspree.io/f/xzeegnyk';
 
 // The contact form inside the Let's Talk section of the homepage.
 export const contactForm = {
