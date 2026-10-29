@@ -1,7 +1,10 @@
 import { nav, site, contactButton } from '../content/site.js';
 
+// The footer lists the sections of this website only. The course and newsletter
+// links (which open other websites) appear in the top menu, not here.
 export default function Footer() {
   const year = new Date().getFullYear();
+  const links = nav.filter((item) => !item.external);
   return (
     <footer className="site-footer">
       <div className="container footer-inner">
@@ -15,16 +18,9 @@ export default function Footer() {
         />
         <nav aria-label="Footer">
           <ul>
-            {nav.map((item) => (
+            {links.map((item) => (
               <li key={item.href}>
-                {item.external ? (
-                  <a href={item.href} target="_blank" rel="noopener noreferrer">
-                    {item.label}
-                    <span className="visually-hidden"> (opens in a new tab)</span>
-                  </a>
-                ) : (
-                  <a href={item.href}>{item.label}</a>
-                )}
+                <a href={item.href}>{item.label}</a>
               </li>
             ))}
             <li>
