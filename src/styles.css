@@ -657,6 +657,23 @@ ol {
 @media (min-width: 640px) {
   .steps {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 0;
+  }
+
+  /* Each step shares three rows (number, heading, description) with the steps beside it,
+     so every heading takes the same space and every description starts at the same height. */
+  .step {
+    display: grid;
+    grid-row: span 3;
+    grid-template-rows: subgrid;
+    align-content: start;
+    padding-bottom: 2.5rem;
+  }
+
+  @supports not (grid-template-rows: subgrid) {
+    .step h3 {
+      min-height: 2.6em;
+    }
   }
 }
 
@@ -766,6 +783,31 @@ ol {
   display: grid;
   gap: 2rem 2.5rem;
   list-style: none;
+}
+
+.example-highlights {
+  display: grid;
+  gap: 0.4rem;
+  margin-top: 0.85rem;
+  list-style: none;
+}
+
+.example-highlights li {
+  position: relative;
+  padding-left: 1.1rem;
+  color: var(--body);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.example-highlights li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 0.45rem;
+  height: 1px;
+  background: var(--ink);
 }
 
 .example-list .example-context {
