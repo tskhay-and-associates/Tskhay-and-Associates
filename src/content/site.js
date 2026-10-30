@@ -217,7 +217,7 @@ export const contact = {
   title: 'Let’s Talk',
   body: 'Tell us about the workforce or people analytics challenge you’re working on, and we’ll reply to set up a time to talk.',
   photo: {
-    src: `${BASE}konstantin-speaking-event.webp`,
+           src: `${BASE}konstantin-speaking-event.webp?v=2`,
     alt: 'Konstantin Tskhay speaking at a leadership event',
     width: 1200,
     height: 900,
