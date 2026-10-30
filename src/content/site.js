@@ -159,8 +159,20 @@ export const clientWork = {
     { value: '5', label: 'HR awards won' },
   ],
   examplesTitle: 'Selected projects',
-  examplesNote: 'Client names are kept confidential. Includes work Konstantin led before founding Tskhay & Associates.',
+  examplesNote: '',
   examples: [
+    {
+      context: 'Top Hat, education technology',
+      title: 'Building the foundations of the HR function',
+      body: 'As VP of Organizational Effectiveness, Konstantin built Top Hat’s HR function from the ground up as the company grew from start-up to scale-up.',
+      highlights: [
+        'Talent strategy, performance management, and compensation philosophy',
+        'Organizational design, including the reorganization of a 150-person sales team',
+        'HR service delivery model, HR technology, and a new HR information system',
+        'HR due diligence and integration for three acquisitions',
+        'Retention up from 56% to 87% in 18 months, and eNPS up from −17 to +20',
+      ],
+    },
     {
       context: 'Professional services firm',
       title: 'People analytics strategy and dashboard',
@@ -175,11 +187,6 @@ export const clientWork = {
       context: 'Consumer and automotive companies',
       title: 'Workforce and location strategy',
       body: 'Developed talent, location, and workplace strategies that helped optimize the number of plants and sales locations across Canada.',
-    },
-    {
-      context: 'Sales organization',
-      title: 'Hiring assessment validation',
-      body: 'Tested whether a personality assessment predicted salespeople’s performance against quota. The analysis found no evidence that it did.',
     },
   ],
 };
@@ -210,8 +217,8 @@ export const contact = {
   title: 'Let’s Talk',
   body: 'Tell us about the workforce or people analytics challenge you’re working on, and we’ll reply to set up a time to talk.',
   photo: {
-    src: `${BASE}konstantin-networking.webp`,
-    alt: 'Konstantin Tskhay talking with HR and business leaders',
+    src: `${BASE}konstantin-speaking-event.webp`,
+    alt: 'Konstantin Tskhay speaking at a leadership event',
     width: 1200,
     height: 900,
   },
@@ -222,7 +229,7 @@ export const contact = {
 // a free form service such as Formspree (formspree.io). Paste the form's address
 // between the quotes, for example: 'https://formspree.io/f/abcdwxyz'
 // While this is empty, sending the form opens the visitor's email app with the message filled in.
-export const formEndpoint = 'https://formspree.io/f/xzeegnyk';
+export const formEndpoint = '';
 
 // The contact form inside the Let's Talk section of the homepage.
 export const contactForm = {
