@@ -36,7 +36,7 @@ export default function ClientWork() {
         <div className="examples">
           <div className="examples-head">
             <h3>{clientWork.examplesTitle}</h3>
-            <p className="muted">{clientWork.examplesNote}</p>
+            {clientWork.examplesNote && <p className="muted">{clientWork.examplesNote}</p>}
           </div>
           <ul className="example-list">
             {clientWork.examples.map((e) => (
@@ -44,6 +44,13 @@ export default function ClientWork() {
                 {e.context && <p className="example-context">{e.context}</p>}
                 <h4>{e.title}</h4>
                 <p>{e.body}</p>
+                {e.highlights && (
+                  <ul className="example-highlights">
+                    {e.highlights.map((h) => (
+                      <li key={h}>{h}</li>
+                    ))}
+                  </ul>
+                )}
               </li>
             ))}
           </ul>
