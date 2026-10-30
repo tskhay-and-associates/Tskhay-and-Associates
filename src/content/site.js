@@ -164,11 +164,12 @@ export const clientWork = {
     {
       context: 'Top Hat, education technology',
       title: 'Building the foundations of the HR function',
-      body: 'As VP of Organizational Effectiveness, Konstantin built Top Hat’s HR function from the ground up as the company grew from start-up to scale-up.',
+      body: 'As VP of Organizational Effectiveness, Konstantin built Top Hat’s HR function from the ground up as the company grew from start-up to scale-up. In 2022 his team was nominated for Best HR Team of the Year (under 500 employees) and Best Talent Management Strategy.',
       highlights: [
-        'Talent strategy, performance management, and compensation philosophy',
+        'Talent strategy, performance management, and learning and development',
         'Organizational design, including the reorganization of a 150-person sales team',
-        'HR service delivery model, HR technology, and a new HR information system',
+        'Total rewards: compensation philosophy, an employee stock option plan, and a benefits provider change that cut costs by 20%',
+        'HR service delivery model, an HR help desk, and a new HR information system',
         'HR due diligence and integration for three acquisitions',
         'Retention up from 56% to 87% in 18 months, and eNPS up from −17 to +20',
       ],
@@ -217,7 +218,7 @@ export const contact = {
   title: 'Let’s Talk',
   body: 'Tell us about the workforce or people analytics challenge you’re working on, and we’ll reply to set up a time to talk.',
   photo: {
-           src: `${BASE}konstantin-speaking-event.webp?v=2`,
+    src: `${BASE}konstantin-speaking-event.webp?v=2`,
     alt: 'Konstantin Tskhay speaking at a leadership event',
     width: 1200,
     height: 900,
