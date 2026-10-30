@@ -35,7 +35,7 @@ export const nav = [
 export const contactButton = { label: 'Contact Us', href: home('#contact') };
 
 export const hero = {
-  title: 'Make Your People Strategy Work.',
+  title: 'Make your people strategy work.',
   body:
     'We use rigorous analytics to connect your workforce to your day-to-day operations, giving you clear, practical, executable programs that drive profitability and performance.',
   photo: {
@@ -47,74 +47,74 @@ export const hero = {
 };
 
 export const stakes = {
-  title: 'The True Cost of an Ambiguous, High-Level Strategy is Speed.',
+  title: 'The true cost of an ambiguous strategy is speed.',
   items: [
     {
-      title: 'Slow Execution',
+      title: 'Slow execution',
       body: 'Without hard data on your people, every decision turns into a debate. Programs stall because leaders argue over assumptions instead of making decisions and acting on facts.',
     },
     {
-      title: 'Solving Yesterday’s Problems',
-      body: 'If your strategy is ambiguous, your workforce deployments are slow. By the time a new program is ready to launch, the business and the market have moved on. Don’t get stuck solving yesterday’s problems.',
+      title: 'Solving yesterday’s problems',
+      body: 'By the time a new people program is ready to launch, the business and the market have moved on. Stop solving yesterday’s problems.',
     },
     {
-      title: 'Delayed Intelligence',
-      body: 'If it takes months to pull data on a program, the insights might be already outdated and useless. You end up reacting, not actively managing your workforce.',
+      title: 'Delayed insights',
+      body: 'If it takes months to pull data, your program insights might be already outdated. So, you end up reacting, not actively managing your workforce.',
     },
   ],
 };
 
 export const value = {
-  title: 'Strategy is nothing without execution.',
+  title: 'Strategy needs execution.',
   intro: 'Here is how we help you move faster:',
   items: [
     {
       icon: 'decide',
-      title: 'Decide on Data, Not Assumptions',
+      title: 'Decide on data, not assumptions',
       body: 'We cut through boardroom debates by bringing rigorous, clear workforce analytics to the table. You get the clarity required to move from endless discussion to immediate action.',
     },
     {
       icon: 'momentum',
-      title: 'Build Real Momentum',
+      title: 'Build real momentum',
       body: 'We don’t just hand you a high-level strategy with a generic playbook; we help you operationalize it. We design practical workforce programs you can deploy rapidly to accelerate growth ahead of competitors.',
     },
     {
       icon: 'predict',
-      title: 'Predict, Don’t React',
-      body: 'Stop managing ad hoc through firefighting. We equip you with the systems and insights you need to see exactly what is happening in your workforce right now, allowing you to proactively drive profitability.',
+      title: 'Predict, don’t react',
+      body: 'Stop firefighting. We equip you with the systems and insights you need to see what is happening with your workforce right now, allowing you to proactively drive profitability.',
     },
   ],
 };
 
 export const services = {
-  title: 'Services Focused On Outcomes',
+  title: 'Services focused on outcomes',
   intro: 'Here is where we can help you turn your strategy into reality.',
   items: [
     {
       id: 'performance',
       icon: 'structure',
-      title: 'Build Momentum in Performance',
+      title: 'Org. design for performance',
       summary: 'Organize your teams and deploy your talent for real outcomes, profitability, and performance.',
       includes: ['Organizational design', 'Layers and spans analysis', 'Talent mapping', 'Structure redesign', 'Talent strategy'],
     },
     {
       id: 'people-analytics',
       icon: 'analytics',
-      title: 'Enable People Analytics',
+      title: 'Enable people analytics',
       summary: 'Give HR and business leaders the data and AI skills to act on your strategy.',
       includes: ['People analytics strategy', 'Data governance', 'HR dashboards', 'Advanced analytics', 'Retention analytics', 'Data literacy education'],
     },
     {
       id: 'culture-engagement',
       icon: 'people',
-      title: 'Architect Your Culture & Engagement',
+      title: 'Architect your culture & engagement',
       summary: 'Connect culture, wellness, and engagement to your business results.',
       includes: ['Engagement strategy', 'Engagement surveys', 'Focus groups', 'Lifecycle feedback', 'Pulse surveys'],
     },
     {
       id: 'compensation',
       icon: 'balance',
-      title: 'Design Your Compensation and Recognition',
+      title: 'Design your compensation and recognition',
       summary: 'Pay people in a way that rewards the performance your strategy needs.',
       includes: ['Job standardization', 'Compensation analysis', 'Pay equity', 'Pay philosophy', 'Total rewards', 'Sales compensation'],
     },
@@ -122,7 +122,7 @@ export const services = {
 };
 
 export const about = {
-  title: 'Workforce Strategy and Programs should never sit on a shelf.',
+  title: 'Workforce strategy and programs should never sit on a shelf.',
   paragraphs: [
     'I started Tskhay & Associates because I was tired of seeing brilliant HR leaders and business executives get stuck with ambiguous, theoretical strategies that fail in the real world. It is incredibly frustrating to spend immense time and money building these plans, only to watch them collect dust. You deserve practical, actionable solutions that actually make a difference for your workforce and your bottom line.',
     'As a former management consultant at Deloitte and a VP of Organizational Effectiveness at Top Hat, I know what it takes to build programs that get boardroom buy-in and actually work day-to-day. Some of the programs I built improved retention from 56% to 87% in 18 months and moved eNPS from −17 to +20. I hold a Ph.D. in Quantitative Psychology from the University of Toronto and have spent over a decade advising organizations—from fast-growing start-ups to Fortune 500s—on how to use data to drive retention, engagement, and performance.',
@@ -149,7 +149,7 @@ export const about = {
 };
 
 export const clientWork = {
-  title: 'Client Work',
+  title: 'Client work',
   intro:
     'Konstantin has advised organizations from fast-growing start-ups to Fortune 500s, across financial services, consumer goods, manufacturing, energy and resources, public services, SaaS, education, and healthcare.',
   stats: [
@@ -193,29 +193,29 @@ export const clientWork = {
 };
 
 export const approach = {
-  title: 'Here Is How We Bring Your Strategy to Reality',
+  title: 'Here is how we bring your strategy to reality',
   steps: [
     {
-      title: 'Discovery Call',
+      title: 'Discovery call',
       body: 'We begin by cutting through the noise to pinpoint the exact workforce problem you are trying to solve and why. From there, we assess exactly where and how we can help you address it by scoping the right solution.',
     },
     {
-      title: 'Deep-Dive Current State Analysis',
+      title: 'Deep-dive current state analysis',
       body: 'We analyze your organization’s quantitative and qualitative data to establish an objective baseline. This deep dive gives us an intimate, fact-based understanding of exactly where your organization is starting from.',
     },
     {
-      title: 'Design Tailored, Practical Solutions',
+      title: 'Design tailored, practical solutions',
       body: 'We partner directly with your leadership and operational teams to architect highly specific strategies for your unique scenarios. We replace complexity with clarity by providing simple tools, systems, and processes that make sense in your context.',
     },
     {
-      title: 'Sustainable Deployment',
+      title: 'Sustainable deployment',
       body: 'We guide the real-world rollout—including change management, system adoption, and communication. We ensure your programs don’t just sit on a shelf but exist sustainably to drive momentum and profitability.',
     },
   ],
 };
 
 export const contact = {
-  title: 'Let’s Talk',
+  title: 'Let’s talk',
   body: 'Tell us about the workforce or people analytics challenge you’re working on, and we’ll reply to set up a time to talk.',
   photo: {
     src: `${BASE}konstantin-lets-talk.webp`,
